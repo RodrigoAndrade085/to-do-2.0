@@ -1,0 +1,58 @@
+
+.taskList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: var(--gray-400);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  
+}
+
+
+.checkCircle {
+  margin-right: 1rem;
+  color: var(--blue);
+  cursor: pointer;
+
+}
+
+.divContent {
+  width: 100%;
+}
+
+.spanContent{
+  word-break: break-all;
+  line-height: 1.2rem;
+  color: var(--gray-100);
+}
+
+.spanContentCompleted{
+  text-decoration: line-through;
+  word-break: break-all;
+  line-height: 1.2rem;
+  color: var(--gray-100);
+}
+
+.taskList s {
+  line-height: 1.2rem;
+  color: var(--gray-300);
+}
+
+.taskList button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.1s;
+}
+
+.taskList button:hover {
+
+  color: var(--red);
+}

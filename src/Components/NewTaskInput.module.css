@@ -1,0 +1,80 @@
+.inputForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -3.5rem;
+}
+
+.inputForm input {
+  width: 100%;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-300);
+  line-height: 1.4;
+  margin-right: 1rem;
+}
+
+.inputForm button[type=submit] {
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--blueDark);
+  color: var(--gray-100);
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  transition: background-color 0.1s;
+}
+
+.inputForm button[type=submit]:hover {
+  background-color: var(--blue);
+}
+
+.inputForm button[type=submit] svg {
+  margin-left: 0.3rem;
+}
+
+.listComponet {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.headerTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.strongCreated {
+  color: var(--blue);
+}
+
+.strongCreated span {
+  background: var(--gray-400);
+  color: var(--gray-100);
+  padding: 0.125rem 0.3rem;
+  border-radius: 8px;
+}
+
+.strongFineshed {
+  color: var(--purple);
+}
+
+.strongFineshed span {
+  background: var(--gray-400);
+  color: var(--gray-100);
+  padding: 0.125rem 0.3rem;
+  border-radius: 8px;
+}
+
+
